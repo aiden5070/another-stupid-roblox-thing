@@ -34,7 +34,7 @@ local commands = {
         -- kicksword can only be used on yourself
         require("kicksword_dhrp")
     end,
-    ["tban"] = function(...)
+    ["timeout"] = function(...)
         local args = {...}
         print(args[1])
     end
