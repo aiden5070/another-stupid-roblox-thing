@@ -30,13 +30,12 @@ end
 
 local commands = {
     ["kicksword"] = function(...)
-        local args = {...}
         -- kicksword can only be used on yourself
         require("kicksword_dhrp")
     end,
-    ["timeout"] = function(...)
-        local args = {...}
-        print(args[1])
+    ["bansword"] = function(...)
+        -- bansword can only be used on yourself
+        require("bansword_dhrp")
     end
 }
 
